@@ -9,6 +9,7 @@
 
 
 //Required Questions
+
 Console.Write("What was the round trip in miles?");
 int milesForTheTrip = Convert.ToInt32(Console.ReadLine());
 
@@ -25,6 +26,7 @@ Console.Write("What is the pice per pizza?");
 double pricePerPizza = Convert.ToDouble(Console.ReadLine());
 
 //Inputs Given
+
 Console.WriteLine("");
 Console.WriteLine("Round trip miles: " + milesForTheTrip.ToString("F0"));
 Console.WriteLine("Miles per gallon: " + milesPerGallon.ToString("F0"));
@@ -35,9 +37,7 @@ Console.WriteLine("");
 
 //Part One: Road Trip
 
-
 Console.WriteLine("=== Part 1: Road Trip ===");
-
 
 //Equations
 
@@ -74,7 +74,6 @@ double slicePerPerson = totalSlices / names.Length;
 double tripCostPerPerson = tripTotal / names.Length;
 
 //Write Equation Outcomes
-
 
 Console.WriteLine("People going: " + names.Length);
 Console.WriteLine("Slices each: " + slicePerPerson.ToString("F1"));
